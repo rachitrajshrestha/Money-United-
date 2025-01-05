@@ -1,0 +1,164 @@
+﻿@page "/home"
+
+<h3>Dashboard</h3>
+
+<div>
+    <div>
+        <h3>Inflow</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Source</th>
+                    <th>Amount($)</th>
+                    <th>Notes</th>    
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    double inflowTotalAmount = 0;
+                    double highestInflowAmount = 0;
+                }
+                @foreach (var inflow in List.Inflows)
+                {
+                    inflowTotalAmount += inflow.amount;
+
+                    //highest amount
+                    if (inflow.amount > highestInflowAmount)
+                    {
+                        highestInflowAmount = inflow.amount;
+                    }
+                    <tr>
+                        <td>@inflow.date</td>
+                        <td>@inflow.type</td>
+                        <td>@inflow.source</td>
+                        <td>@inflow.amount</td>
+                        <td>@inflow.note</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Total:</strong></td>
+                    <td><strong>@inflowTotalAmount</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Highest Amount:</strong></td>
+                    <td><strong>@highestInflowAmount</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <button class="submit-btn" onclick=sortDateInflow type="submit">Sort Date</button>
+
+    <div>
+        <h3>OutFlow</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Source</th>
+                    <th>Amount($)</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+
+                    double OutflowTotalAmount = 0;
+                    double highestOutflowAmount = 0;
+                }
+                @foreach (var Outflows in List.Outflows)
+                {
+                    OutflowTotalAmount += Outflows.amount;
+
+                    //highest amount
+                    if (Outflows.amount > highestOutflowAmount)
+                    {
+                        highestOutflowAmount = Outflows.amount;
+                    }
+                    <tr>
+                        <td>@Outflows.date</td>
+                        <td>@Outflows.type</td>
+                        <td>@Outflows.source</td>
+                        <td>@Outflows.amount</td>
+                        <td>@Outflows.note</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Total:</strong></td>
+                    <td><strong>@OutflowTotalAmount</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Highest Amount:</strong></td>
+                    <td><strong>@highestOutflowAmount</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <button class="submit-btn" onclick="selectDateInflow" type="submit">Sort Date</button>
+
+    <div>
+        <h3>Debt</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Source</th>
+                    <th>Amount($)</th>
+                    <th>Notes</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    double DebtTotalAmount = 0;
+                    double highestDebtAmount = 0;
+                }
+                @foreach (var Debt in List.Debt)
+                {
+                    DebtTotalAmount += Debt.amount;
+
+                    //highest amount
+                    if (Debt.amount > highestDebtAmount)
+                    {
+                        highestDebtAmount = Debt.amount;
+                    }
+                    <tr>
+                        <td>@Debt.date</td>
+                        <td>@Debt.status</td>
+                        <td>@Debt.source</td>
+                        <td>@Debt.amount</td>
+                        <td>@Debt.note</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Total:</strong></td>
+                    <td><strong>@DebtTotalAmount</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:right"><strong>Highest Amount:</strong></td>
+                    <td><strong>@highestDebtAmount</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+@code {
+
+    public void sortDateInflow()
+    {
+        Controller controller = new Controller();
+        controller.selectDateInflow();
+
+    }
+
+}

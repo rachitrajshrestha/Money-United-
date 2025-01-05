@@ -1,0 +1,49 @@
+﻿@page "/Inflows"
+
+<h3>Inflows</h3>
+
+<label for="amount">Amount:</label>
+<input type="text" @bind=amount />
+
+<label for="source">Source:</label>
+<input type="text" @bind=source/>
+
+<label for="type">Type:</label>
+<select @bind="type">
+	@foreach (var Inflows in Enum.GetNames(typeof(typeClass.Inflows)))
+	{
+		<option value="@Inflows">@Inflows</option>
+	}
+</select>
+
+<label for="date">Date:</label>
+<input type="dateOnly" @bind=date/>
+
+<label for="note">Note:</label>
+<input type="text" @bind=note />
+
+<label>&nbsp;</label>
+<input type="submit" @onclick=AddBalance value="Submit" />
+
+
+
+@code {
+	public int amount;
+	public string source;
+	public DateOnly date;
+	public string type;
+
+	public string note;
+
+
+	List<InflowTrans> income = new List<InflowTrans>();
+
+	public void AddBalance()
+	{ 
+			InsertList insertList = new InsertList();
+			insertList.LogInflow(1, amount, source, date ,type, note);
+			insertList.CloseDatabase();
+	}
+
+
+}

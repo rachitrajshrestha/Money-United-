@@ -1,0 +1,42 @@
+﻿@page "/Debt"
+<h3>Debt</h3>
+
+
+<label for="amount">Amount:</label>
+<input type="text" @bind=amount />
+
+<label for="date">Date:</label>
+<input type="dateOnly" @bind=date/>
+
+<label for="type">Type:</label>
+<select @bind="status">
+	<option value="Pending">Pending</option>
+	<option value="Cleared">Cleared</option>
+</select>
+
+<label for="source">Source:</label>
+<input type="text" @bind=source/>
+
+<label for="note">Note:</label>
+<input type="text" @bind=note />
+
+<label>&nbsp;</label>
+<input type="submit" @onclick=AddDebt value="Submit" />
+
+@code {
+	public int amount;
+	public DateOnly date;
+	public string source;
+	public string status;
+
+	public string note;
+
+	public void AddDebt()
+	{
+		InsertList insertList = new InsertList();
+		insertList.InsertDebtEntry(1, amount, source, date, status, note);
+		insertList.CloseDatabase();
+	}
+
+
+}

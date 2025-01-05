@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Money_United.styles.css",
+      "PackagePath": "staticwebassets\\Money_United.styles.css"
+    },
+    {
+      "Id": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.Money_United.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.Money_United.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.Money_United.props",
+      "PackagePath": "build\\Money_United.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.Money_United.props",
+      "PackagePath": "buildMultiTargeting\\Money_United.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.Money_United.props",
+      "PackagePath": "buildTransitive\\Money_United.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

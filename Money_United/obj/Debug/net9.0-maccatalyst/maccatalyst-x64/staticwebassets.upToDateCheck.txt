@@ -1,0 +1,8 @@
+D:\Application development dev\Money_United\Money_United\wwwroot\css\app.css
+D:\Application development dev\Money_United\Money_United\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\Application development dev\Money_United\Money_United\wwwroot\css\bootstrap\bootstrap.min.css
+D:\Application development dev\Money_United\Money_United\wwwroot\index.html
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
