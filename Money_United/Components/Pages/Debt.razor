@@ -8,11 +8,21 @@
 <label for="date">Date:</label>
 <input type="dateOnly" @bind=date/>
 
-<label for="type">Type:</label>
+<label for="status">Status:</label>
 <select @bind="status">
 	<option value="Pending">Pending</option>
 	<option value="Cleared">Cleared</option>
 </select>
+
+<label for="tags">Tags:</label>
+<select @bind="usertags">
+	@foreach (var tag in List.Tags)
+	{
+		<option value="@tag.tags">@tag.tags</option>
+	}
+</select>
+
+
 
 <label for="source">Source:</label>
 <input type="text" @bind=source/>
@@ -20,22 +30,40 @@
 <label for="note">Note:</label>
 <input type="text" @bind=note />
 
-<label>&nbsp;</label>
+
+@if (submitMessage)
+{
+	<p>Your Debt has been recorded successfully.</p>
+}
+
 <input type="submit" @onclick=AddDebt value="Submit" />
+
+
 
 @code {
 	public int amount;
 	public DateOnly date;
 	public string source;
 	public string status;
-
+	public string usertags;
 	public string note;
+	private bool submitMessage = false;
+	protected override void OnInitialized()
+	{
+		List.ClearTags();
+		Controller controller = new Controller();
+		controller.selectTags();
+	}
 
 	public void AddDebt()
-	{
+	{	
+		List.ClearDebt();
+		Controller controller = new Controller();
+		controller.SelectDebt();
 		InsertList insertList = new InsertList();
-		insertList.InsertDebtEntry(1, amount, source, date, status, note);
+		insertList.InsertDebtEntry(1, amount, source, date, status, usertags, note);
 		insertList.CloseDatabase();
+		submitMessage = true;
 	}
 
 

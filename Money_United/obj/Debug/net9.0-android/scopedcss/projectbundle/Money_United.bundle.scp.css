@@ -178,3 +178,278 @@ main[b-d8asdtyrni] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/Debt.razor.rz.scp.css */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Money_United.Components.Pages[b-4wkcomaaue]
+{
+    class Debt
+    {
+    }
+}
+/* /Components/Pages/Home.razor.rz.scp.css */
+.totals-container[b-669jz35v7y] {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.total-box[b-669jz35v7y] {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+    .total-box h4[b-669jz35v7y] {
+        margin-bottom: 10px;
+    }
+
+    .total-box p[b-669jz35v7y] {
+        font-size: 24px;
+        font-weight: bold;
+
+    }
+.table[b-669jz35v7y] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table thead[b-669jz35v7y] {
+        color: black;
+        text-align: left;
+    }
+
+        .table thead th[b-669jz35v7y] {
+            padding: 12px;
+            font-size: 14px;
+        }
+
+    .table tbody tr:nth-child(odd)[b-669jz35v7y] {
+        background-color: #f9f9f9;
+    }
+
+    .table tbody tr:nth-child(even)[b-669jz35v7y] {
+        background-color: #f1f1f1;
+    }
+
+    .table tbody td[b-669jz35v7y] {
+        padding: 12px;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .table tfoot[b-669jz35v7y] {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+        text-align: right;
+    }
+
+        .table tfoot td[b-669jz35v7y] {
+            padding: 12px;
+        }
+
+
+/* /Components/Pages/Inflows.razor.rz.scp.css */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Money_United.Components.Pages[b-n257x7lruu]
+{
+    class Inflow
+    {
+    }
+}
+/* /Components/Pages/Outflows.razor.rz.scp.css */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Money_United.Components.Pages[b-te42hp1f97]
+{
+    class Outflows
+    {
+    }
+}
+/* /Components/Pages/Signup.razor.rz.scp.css */
+*[b-79wy7s4mr6] {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body[b-79wy7s4mr6] {
+    background-image: linear-gradient(-225deg, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+
+}
+
+form[b-79wy7s4mr6] {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50);
+}
+
+    form .con[b-79wy7s4mr6] {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+
+header[b-79wy7s4mr6] {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+    header h2[b-79wy7s4mr6] {
+        font-size: 250%;
+        font-family: 'Playfair Display', serif;
+        color: #3e403f;
+    }
+
+    header p[b-79wy7s4mr6] {
+        letter-spacing: 0.05em;
+    }
+
+
+.input-item[b-79wy7s4mr6] {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+#eye[b-79wy7s4mr6] {
+    background: #fff;
+    color: #333;
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+input[class="form-input"][b-79wy7s4mr6] {
+    width: 240px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+
+input[id="txt-input"][b-79wy7s4mr6] {
+    width: 250px;
+}
+
+input:focus[b-79wy7s4mr6] {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+button[b-79wy7s4mr6] {
+    display: inline-block;
+    color: #000;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background: green;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+.submits[b-79wy7s4mr6] {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+
+
+.sign-up[b-79wy7s4mr6] {
+    background: #B8F2E6;
+}
+
+
+
+button:hover[b-79wy7s4mr6] {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+button:hover[b-79wy7s4mr6] {
+    animation: ani9-b-79wy7s4mr6 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9-b-79wy7s4mr6 {
+    0% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+/* /Components/Pages/Tags.razor.rz.scp.css */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Money_United.Components.Pages[b-mvn4rgo1ro]
+{
+    class Tags
+    {
+    }
+}

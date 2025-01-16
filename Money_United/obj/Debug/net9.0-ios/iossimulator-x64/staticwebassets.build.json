@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CMgWlZ6gN6vp+RlBovuzdNGCV9wML6+SEClh0mhVSeI=",
+  "Hash": "b9OBqK9rsUkTx/QuFa0I3/E7238UJmnVM2o389I+stM=",
   "Source": "Money_United",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-whrzvmogz4.gz",
+      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
       "SourceId": "Money_United",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=whrzvmogz4}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=rtioofvp5p}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mbbc49315x",
-      "Integrity": "UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo=",
+      "Fingerprint": "e5c9g1ucem",
+      "Integrity": "Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "whrzvmogz4",
-      "Integrity": "9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8=",
+      "Fingerprint": "rtioofvp5p",
+      "Integrity": "T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -272,12 +272,12 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-whrzvmogz4.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000572409845"
+          "Quality": "0.000492853622"
         }
       ],
       "ResponseHeaders": [
@@ -287,15 +287,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2028"
         },
         {
           "Name": "ETag",
-          "Value": "\"UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo=\""
+          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -315,13 +315,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8=\""
+          "Value": "W/\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8="
+          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
         }
       ]
     },
@@ -336,7 +336,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3373"
+          "Value": "4390"
         },
         {
           "Name": "Content-Type",
@@ -344,11 +344,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8=\""
+          "Value": "\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -358,13 +358,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8="
+          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-whrzvmogz4.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -373,7 +373,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2028"
         },
         {
           "Name": "Content-Type",
@@ -381,11 +381,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo=\""
+          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -403,18 +403,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo="
+          "Value": "sha256-Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k="
         }
       ]
     },
     {
-      "Route": "css/app.whrzvmogz4.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-whrzvmogz4.gz",
+      "Route": "css/app.rtioofvp5p.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000572409845"
+          "Quality": "0.000492853622"
         }
       ],
       "ResponseHeaders": [
@@ -424,15 +424,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2028"
         },
         {
           "Name": "ETag",
-          "Value": "\"UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo=\""
+          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -452,13 +452,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8=\""
+          "Value": "W/\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "whrzvmogz4"
+          "Value": "rtioofvp5p"
         },
         {
           "Name": "label",
@@ -466,12 +466,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8="
+          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
         }
       ]
     },
     {
-      "Route": "css/app.whrzvmogz4.css",
+      "Route": "css/app.rtioofvp5p.css",
       "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -481,7 +481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3373"
+          "Value": "4390"
         },
         {
           "Name": "Content-Type",
@@ -489,11 +489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8=\""
+          "Value": "\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -503,7 +503,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "whrzvmogz4"
+          "Value": "rtioofvp5p"
         },
         {
           "Name": "label",
@@ -511,13 +511,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9IzepGBXikRqoebEMLP71VSJkrZxrVbiFqZ9dKpdKI8="
+          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
         }
       ]
     },
     {
-      "Route": "css/app.whrzvmogz4.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-whrzvmogz4.gz",
+      "Route": "css/app.rtioofvp5p.css.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -526,7 +526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1746"
+          "Value": "2028"
         },
         {
           "Name": "Content-Type",
@@ -534,11 +534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo=\""
+          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 01:50:00 GMT"
+          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "whrzvmogz4"
+          "Value": "rtioofvp5p"
         },
         {
           "Name": "label",
@@ -564,7 +564,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UnyDLUt4ZC0dwKbCENaddO1sxvFy4sXDF+WJMltycNo="
+          "Value": "sha256-Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k="
         }
       ]
     },

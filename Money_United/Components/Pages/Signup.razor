@@ -1,35 +1,64 @@
 ﻿@inject NavigationManager NavManager
 @page "/"
 
-<h3>Login</h3>
 
-<label for="userName">Username:</label>
-<input type="text" @bind=userName/>
+<div class="con">
+    <form>
+        <header>
+            <h2>Login</h2>
+            <p>Please enter your credentials</p>
+        </header>
 
-<label for="Password">Password:</label>
-<input type="text" @bind=password/>
+        <div class="input-item">
+            <label for="userName">Username:</label>
+            <input class="form-input" id="txt-input" type="text" @bind=userName placeholder="username" required />
+        </div>
 
-<label>&nbsp;</label>
-<input type="submit" @onclick="OnSubmit" value="Submit"/>
+        <div class="input-item">
+            <label for="Password">Password:</label>
+            <input class="form-input" id="txt-input" type="password" @bind=password placeholder="password" required />
+        </div>
 
+        <div class="input-item">
+            <label for="currency">Currency:</label>
+            <select class="form-input" @bind="currency" required>
+                @foreach (var Currency in Enum.GetNames(typeof(typeClass.Currency)))
+                {
+                    <option value="@Currency">@Currency</option>
+                }
+            </select>
+        </div>
+
+        <div class="submits">
+            <button type="submit" class="log-in" @onclick="OnSubmit">Submit</button>
+        </div>
+    </form>
+</div>
 
 @code {
-	public string userName;
-	public string password;
+    public string userName;
+    public string password;
+    public string currency;
 
 
-	public void OnSubmit()
-	{
-		Initialize_Database dbInitializer = new Initialize_Database();
-		dbInitializer.DatabaseChecker();
+    public void OnSubmit()
+    {
+        Initialize_Database dbInitializer = new Initialize_Database();
+        dbInitializer.DatabaseChecker();
 
-		if (userName.Equals("admin") && password.Equals("admin"))
-		{
-			Controller c = new Controller();
-			c.SelectInflow();
-			c.SelectOutflow();
-			c.SelectDebt();
+        if (userName.Equals("admin") && password.Equals("admin"))
+        {
+            List.ClearInflow();
+            List.ClearOutflow();
+            List.ClearDebt();
+            List.ClearTags();
+            Controller controller = new Controller();
+            controller.SelectInflow();
+            controller.SelectOutflow();
+            controller.SelectDebt(); ;
+            controller.selectTags();
 			NavManager.NavigateTo("/Home");
+			
 		}
 
 

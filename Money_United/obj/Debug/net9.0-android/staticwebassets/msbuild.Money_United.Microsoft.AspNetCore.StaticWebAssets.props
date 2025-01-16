@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rtioofvp5p</Fingerprint>
-      <Integrity>T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=</Integrity>
+      <Fingerprint>46k969x47q</Fingerprint>
+      <Integrity>pJeGIhdombeMCTmYcjQjl6GKk/Kpw8NTBTlEHLFUE0g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>4we25bwit6</Fingerprint>
-      <Integrity>HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=</Integrity>
+      <Fingerprint>wxg68saf54</Fingerprint>
+      <Integrity>vAzzN8zNN2DJ5n513dnRDDET67qws+twtjET/k+FAgc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Money_United.styles.css'))</OriginalItemSpec>

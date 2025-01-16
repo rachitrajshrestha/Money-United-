@@ -4,25 +4,19 @@
     private string type;
 
     public int amount { get; set; }
+    public string status { get; set; }
     public string source { get; set; }
     public string date { get; set; }
-    public string status { get; set; }
+    public string tags { get; set; }
     public string note { get; set; }
 
-    public DebtTrans(int debt_amount, string debt_source, string date, string status, string note)
+    public DebtTrans(int debt_amount, string status, string debt_source, string date,  string tags, string note)
     {
         amount = debt_amount;
+        this.status = status;
         source = debt_source;
         this.date = date;
-        this.status = status;
+        this.tags = tags;   
         this.note = note;
-    }
-
-    public DebtTrans(int debtAmount, string type, string source, string date)
-    {
-        this.debtAmount = debtAmount;
-        this.type = type;
-        this.source = source;
-        this.date = date;
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hVkfcvIysyUg7rFV/LPG2x929CJCdt+er8aPZfMlCaQ=",
+  "Hash": "hEDntSBGOPcyEq93szbY6fzs0tAMOnC56p+aREkSpXA=",
   "Source": "Money_United",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
+      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-5djdrf6zrc.gz",
       "SourceId": "Money_United",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=rtioofvp5p}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=5djdrf6zrc}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "e5c9g1ucem",
-      "Integrity": "Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=",
+      "Fingerprint": "c2kxymiffc",
+      "Integrity": "LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css"
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-4we25bwit6.gz",
+      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-7kxbdfwafj.gz",
       "SourceId": "Money_United",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "Money_United#[.{fingerprint=4we25bwit6}]?.styles.css.gz",
+      "RelativePath": "Money_United#[.{fingerprint=7kxbdfwafj}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Money_United.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eixf1szokj",
-      "Integrity": "ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=",
+      "Fingerprint": "sv5pcavgit",
+      "Integrity": "CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Money_United.styles.css"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-4we25bwit6.gz",
+      "Identity": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-7kxbdfwafj.gz",
       "SourceId": "Money_United",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "Money_United#[.{fingerprint=4we25bwit6}]!.bundle.scp.css.gz",
+      "RelativePath": "Money_United#[.{fingerprint=7kxbdfwafj}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Money_United.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eixf1szokj",
-      "Integrity": "ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=",
+      "Fingerprint": "sv5pcavgit",
+      "Integrity": "CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Money_United.bundle.scp.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "4we25bwit6",
-      "Integrity": "HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=",
+      "Fingerprint": "7kxbdfwafj",
+      "Integrity": "WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Money_United.styles.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "4we25bwit6",
-      "Integrity": "HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=",
+      "Fingerprint": "7kxbdfwafj",
+      "Integrity": "WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Money_United.bundle.scp.css"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rtioofvp5p",
-      "Integrity": "T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=",
+      "Fingerprint": "5djdrf6zrc",
+      "Integrity": "t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -271,13 +271,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/app.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
+      "Route": "css/app.5djdrf6zrc.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-5djdrf6zrc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000492853622"
+          "Quality": "0.000576368876"
         }
       ],
       "ResponseHeaders": [
@@ -287,19 +287,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2028"
+          "Value": "1734"
         },
         {
           "Name": "ETag",
-          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
+          "Value": "\"LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -315,18 +315,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
+          "Value": "W/\"t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5djdrf6zrc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
+          "Value": "sha256-t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI="
         }
       ]
     },
     {
-      "Route": "css/app.css",
+      "Route": "css/app.5djdrf6zrc.css",
       "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -336,7 +344,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4390"
+          "Value": "3340"
         },
         {
           "Name": "Content-Type",
@@ -344,121 +352,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
+          "Value": "\"t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2028"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.rtioofvp5p.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000492853622"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2028"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rtioofvp5p"
+          "Value": "5djdrf6zrc"
         },
         {
           "Name": "label",
@@ -466,13 +374,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
+          "Value": "sha256-t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI="
         }
       ]
     },
     {
-      "Route": "css/app.rtioofvp5p.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
+      "Route": "css/app.5djdrf6zrc.css.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-5djdrf6zrc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -481,7 +389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4390"
+          "Value": "1734"
         },
         {
           "Name": "Content-Type",
@@ -489,56 +397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE=\""
+          "Value": "\"LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rtioofvp5p"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T1kI9bTOfgpctVM1oY/LoklzvARdKVgnTgK5YYvNkaE="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.rtioofvp5p.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-rtioofvp5p.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2028"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 05 Jan 2025 04:32:19 GMT"
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +419,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rtioofvp5p"
+          "Value": "5djdrf6zrc"
         },
         {
           "Name": "label",
@@ -564,7 +427,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Psb/0sD6cVK8fpXNJMCawN3g6UJGTtIrfA5JXZFot5k="
+          "Value": "sha256-LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-5djdrf6zrc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000576368876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6WqBebjJqnP3k/ixPkQh/Gqz4L8HqAyNzfdsp3eJJI="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1mm0kb4s7b-5djdrf6zrc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 06:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LMKCuyAqdaPf05A2SAEkTSUPTAFncy4HhJsG+aSvpkc="
         }
       ]
     },
@@ -1463,13 +1463,13 @@
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.bundle.scp.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-4we25bwit6.gz",
+      "Route": "Money_United.7kxbdfwafj.bundle.scp.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-7kxbdfwafj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000615384615"
+          "Quality": "0.000318369946"
         }
       ],
       "ResponseHeaders": [
@@ -1479,15 +1479,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1507,13 +1507,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1521,12 +1521,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.bundle.scp.css",
+      "Route": "Money_United.7kxbdfwafj.bundle.scp.css",
       "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Money_United.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1536,7 +1536,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "14812"
         },
         {
           "Name": "Content-Type",
@@ -1544,11 +1544,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1558,7 +1558,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1566,13 +1566,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.bundle.scp.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-4we25bwit6.gz",
+      "Route": "Money_United.7kxbdfwafj.bundle.scp.css.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-7kxbdfwafj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1581,7 +1581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "Content-Type",
@@ -1589,11 +1589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1611,7 +1611,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1619,18 +1619,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM="
+          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
         }
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.styles.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-4we25bwit6.gz",
+      "Route": "Money_United.7kxbdfwafj.styles.css",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-7kxbdfwafj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000615384615"
+          "Quality": "0.000318369946"
         }
       ],
       "ResponseHeaders": [
@@ -1640,15 +1640,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1668,13 +1668,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1682,12 +1682,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.styles.css",
+      "Route": "Money_United.7kxbdfwafj.styles.css",
       "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Money_United.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1697,7 +1697,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "14812"
         },
         {
           "Name": "Content-Type",
@@ -1705,11 +1705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1719,7 +1719,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1727,13 +1727,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
-      "Route": "Money_United.4we25bwit6.styles.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-4we25bwit6.gz",
+      "Route": "Money_United.7kxbdfwafj.styles.css.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-7kxbdfwafj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1742,7 +1742,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "Content-Type",
@@ -1750,11 +1750,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1772,7 +1772,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4we25bwit6"
+          "Value": "7kxbdfwafj"
         },
         {
           "Name": "label",
@@ -1780,18 +1780,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM="
+          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
         }
       ]
     },
     {
       "Route": "Money_United.bundle.scp.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-4we25bwit6.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-7kxbdfwafj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000615384615"
+          "Quality": "0.000318369946"
         }
       ],
       "ResponseHeaders": [
@@ -1801,15 +1801,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1829,13 +1829,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
@@ -1850,7 +1850,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "14812"
         },
         {
           "Name": "Content-Type",
@@ -1858,11 +1858,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1872,13 +1872,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
       "Route": "Money_United.bundle.scp.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-4we25bwit6.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\b0zqz3a2q5-7kxbdfwafj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1887,7 +1887,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "Content-Type",
@@ -1895,11 +1895,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1917,18 +1917,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM="
+          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
         }
       ]
     },
     {
       "Route": "Money_United.styles.css",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-4we25bwit6.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-7kxbdfwafj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000615384615"
+          "Quality": "0.000318369946"
         }
       ],
       "ResponseHeaders": [
@@ -1938,15 +1938,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1966,13 +1966,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
@@ -1987,7 +1987,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "14812"
         },
         {
           "Name": "Content-Type",
@@ -1995,11 +1995,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4=\""
+          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2009,13 +2009,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HJcByG8cQCuLS7MEZ7jtF8ENsUISzFgA7dYb/MXdGa4="
+          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
         }
       ]
     },
     {
       "Route": "Money_United.styles.css.gz",
-      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-4we25bwit6.gz",
+      "AssetFile": "D:\\Application development dev\\Money_United\\Money_United\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\9legoma4qr-7kxbdfwafj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2024,7 +2024,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1624"
+          "Value": "3140"
         },
         {
           "Name": "Content-Type",
@@ -2032,11 +2032,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM=\""
+          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:58:46 GMT"
+          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2054,7 +2054,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZhgEdJHCx7VpMqynJzPz4xjAzL232ELXUzlZGGK+lTM="
+          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
         }
       ]
     }

@@ -2,11 +2,21 @@
 
 <h3>Outflows</h3>
 
+<p><strong>Total Outflows: </strong>@outflowTotalAmount</p>
+
 <label for="amount">Amount:</label>
 <input type="text" @bind=amount />
 
 <label for="source">Source:</label>
 <input type="text" @bind=source />
+
+<label for="tags">Tags:</label>
+<select @bind="usertags">
+	@foreach (var tag in List.Tags)
+	{
+		<option value="@tag.tags">@tag.tags</option>
+	}
+</select>
 
 <label for="type">Type:</label>
 <select @bind="type">
@@ -22,7 +32,11 @@
 <label for="note">Note:</label>
 <input type="text" @bind=note />
 
-<label>&nbsp;</label>
+@if (submitMessage)
+{
+	<p>Your outflow has been recorded successfully.</p>
+}
+
 <input type="submit" @onclick=AddBalance value="Submit" />
 
 
@@ -32,16 +46,42 @@
 	public string source;
 	public string type;
 	public DateOnly date;
-
+	public string usertags;
 	public string note;
+	private double outflowTotalAmount = 0;
+	private bool submitMessage = false;
 
-	List<InflowTrans> income = new List<InflowTrans>();
+	List<OutflowTrans> income = new List<OutflowTrans>();
+
+	protected override void OnInitialized()
+	{
+		List.ClearTags();
+		Controller controller = new Controller();
+		controller.selectTags();
+		CalculateTotalOutflows();
+	}
+
+	private void CalculateTotalOutflows()
+	{
+		outflowTotalAmount = 0;
+		foreach (var outflow in List.Outflows)
+		{
+			outflowTotalAmount += outflow.amount;
+		}
+	}
 
 	public void AddBalance()
-	{
+	{	
+		List.ClearOutflow();
+		Controller controller = new Controller();
+		controller.SelectOutflow();
+		CalculateTotalOutflows();
+
 		InsertList insertList = new InsertList();
-		insertList.LogOutflow(1, amount, source, date, type, note);
-		insertList.CloseDatabase();
+		insertList.LogOutflow(1, amount, source, date, type, usertags, note);
+		insertList.CloseDatabase();	
+
+		submitMessage = true;
 	}
 
 
