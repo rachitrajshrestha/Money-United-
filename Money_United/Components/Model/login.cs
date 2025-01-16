@@ -1,5 +1,5 @@
 ﻿public class login
 {
-    private bool _log = false;
+    public static bool _log = false;
 
 }

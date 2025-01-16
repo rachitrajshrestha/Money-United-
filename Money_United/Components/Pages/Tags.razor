@@ -1,17 +1,26 @@
-﻿<h3>Tags</h3>
+﻿@page "/Tags"
+<h3>Tags</h3>
 
 <label for="note">Tags:</label>
-<input type="text" @bind=tag />
+<input type="text" @bind=tags />
+
+@if (submitMessage)
+{
+	<p>Your Debt has been recorded successfully.</p>
+}
 
 <label>&nbsp;</label>
-<input type="submit" @onclick=submit value="Submit" />
+<input type="submit" @onclick=addTags value="Submit" />
 
 @code {
-	public string tag;
-
-	public void submit()
+	public string tags;
+	private bool submitMessage = false;
+	public void addTags()
 	{
-		
+		InsertList insertList = new InsertList();
+		insertList.InsertTagsEntry(1, tags);
+		insertList.CloseDatabase();
+		submitMessage = true;
 	}
 
 }

@@ -41,10 +41,11 @@ public class Initialize_Database
         CREATE TABLE inflows(
             inflows_id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER,
-            inflow_amount INTEGER ,
-            inflow_source INTEGER ,
+            inflow_amount INTEGER,
+            inflow_source,
             date TEXT,
             type TEXT,
+            tags TEXT,
             note Text,
             FOREIGN KEY (user_id) REFERENCES users(user_id)
         );";
@@ -54,9 +55,10 @@ public class Initialize_Database
             outflows_id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER,
             outflow_amount INTEGER ,
-            outflow_source INTEGER,
+            outflow_source,
             date TEXT,
             type TEXT,
+            tags TEXT,
             note Text,
             FOREIGN KEY (user_id) REFERENCES users(user_id)
         );";
@@ -66,20 +68,22 @@ public class Initialize_Database
             debt_id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER,
             debt_amount INTEGER,
-            debt_source INTEGER ,
+            debt_source,
             date TEXT,
             status TEXT,
+            tags TEXT,
             note Text,
             FOREIGN KEY (user_id) REFERENCES users(user_id)
         );";
 
         string createTagsQuery = @"
-        CREATE TABLE debt(
+        CREATE TABLE tags(
             tags_id INTEGER PRIMARY KEY AUTOINCREMENT,
-            user_id INTEGER,
-            tags_name Text,
+            user_id,
+            tags_content TEXT,
             FOREIGN KEY (user_id) REFERENCES users(user_id)
         );";
+
 
         using (SQLiteConnection connex = new SQLiteConnection(connection))
         {
@@ -97,6 +101,10 @@ public class Initialize_Database
                 sc.ExecuteNonQuery();
             }
             using (SQLiteCommand sc = new SQLiteCommand(createDebtQuery, connex))
+            {
+                sc.ExecuteNonQuery();
+            }
+            using (SQLiteCommand sc = new SQLiteCommand(createTagsQuery, connex))
             {
                 sc.ExecuteNonQuery();
             }

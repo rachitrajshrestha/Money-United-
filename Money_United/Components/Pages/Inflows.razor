@@ -2,48 +2,92 @@
 
 <h3>Inflows</h3>
 
+<p><strong>Total Inflows: </strong>@inflowTotalAmount</p>
+
 <label for="amount">Amount:</label>
 <input type="text" @bind=amount />
 
 <label for="source">Source:</label>
-<input type="text" @bind=source/>
+<input type="text" @bind=source />
+
+<label for="tags">Tags:</label>
+<select @bind="usertags">
+    @foreach (var tag in List.Tags)
+    {
+        <option value="@tag.tags">@tag.tags</option>
+    }
+</select>
 
 <label for="type">Type:</label>
 <select @bind="type">
-	@foreach (var Inflows in Enum.GetNames(typeof(typeClass.Inflows)))
-	{
-		<option value="@Inflows">@Inflows</option>
-	}
+    @foreach (var Inflows in Enum.GetNames(typeof(typeClass.Inflows)))
+    {
+        <option value="@Inflows">@Inflows</option>
+    }
 </select>
 
 <label for="date">Date:</label>
-<input type="dateOnly" @bind=date/>
+<input type="date" @bind=date />
 
 <label for="note">Note:</label>
 <input type="text" @bind=note />
 
-<label>&nbsp;</label>
+@if (showThankYouMessage)
+{
+    <p>Your inflow has been recorded successfully.</p>
+}
+
 <input type="submit" @onclick=AddBalance value="Submit" />
 
 
 
 @code {
-	public int amount;
-	public string source;
-	public DateOnly date;
-	public string type;
+    public int amount;
+    public string source;
+    public string type;
+    public DateOnly date;
+    public string usertags;
+    public string note;
+    private double inflowTotalAmount = 0;
+    private bool showThankYouMessage = false;
 
-	public string note;
-
-
-	List<InflowTrans> income = new List<InflowTrans>();
-
-	public void AddBalance()
-	{ 
-			InsertList insertList = new InsertList();
-			insertList.LogInflow(1, amount, source, date ,type, note);
-			insertList.CloseDatabase();
-	}
+    List<InflowTrans> income = new List<InflowTrans>();
 
 
+    protected override void OnInitialized()
+    {
+        List.ClearTags();
+        Controller controller = new Controller();
+        controller.selectTags();
+        CalculateTotalInflows();
+    }
+
+    private void CalculateTotalInflows()
+    {
+
+        inflowTotalAmount = 0; 
+        foreach (var inflow in List.Inflows)
+        {
+            inflowTotalAmount += inflow.amount;
+        }
+    }
+
+
+
+    public async Task AddBalance()
+    {
+        List.ClearInflow();
+        Controller controller = new Controller();
+        controller.SelectInflow();
+
+        InsertList insertList = new InsertList();
+        insertList.LogInflow(1, amount, source, date, type, usertags, note);
+        insertList.CloseDatabase();
+
+        List.ClearInflow();
+        controller.SelectInflow();
+        CalculateTotalInflows();
+
+        showThankYouMessage = true;
+    }
 }
