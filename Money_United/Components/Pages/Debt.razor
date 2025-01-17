@@ -1,70 +1,77 @@
 ﻿@page "/Debt"
-<h3>Debt</h3>
+
+<form>
+
+	<h3>Debt</h3>
 
 
-<label for="amount">Amount:</label>
-<input type="text" @bind=amount />
+	<label for="amount">Amount:</label>
+	<input type="text" @bind=amount />
 
-<label for="date">Date:</label>
-<input type="dateOnly" @bind=date/>
+	<label for="date">Date:</label>
+	<input type="dateOnly" @bind=date />
 
-<label for="status">Status:</label>
-<select @bind="status">
-	<option value="Pending">Pending</option>
-	<option value="Cleared">Cleared</option>
-</select>
+	<label for="status">Status:</label>
+	<select @bind="status">
+		<option value="Pending">Pending</option>
+		<option value="Cleared">Cleared</option>
+	</select>
 
-<label for="tags">Tags:</label>
-<select @bind="usertags">
-	@foreach (var tag in List.Tags)
+	<label for="tags">Tags:</label>
+	<select @bind="usertags">
+		@foreach (var tag in List.Tags)
+		{
+			<option value="@tag.tags">@tag.tags</option>
+		}
+	</select>
+
+
+
+	<label for="source">Source:</label>
+	<input type="text" @bind=source />
+
+	<label for="note">Note:</label>
+	<input type="text" @bind=note />
+
+
+	@if (submitMessage)
 	{
-		<option value="@tag.tags">@tag.tags</option>
+		<p>Your Debt has been recorded successfully.</p>
 	}
-</select>
 
+	<input type="submit" @onclick=AddDebt value="Submit" />
 
-
-<label for="source">Source:</label>
-<input type="text" @bind=source/>
-
-<label for="note">Note:</label>
-<input type="text" @bind=note />
-
-
-@if (submitMessage)
-{
-	<p>Your Debt has been recorded successfully.</p>
-}
-
-<input type="submit" @onclick=AddDebt value="Submit" />
-
-
+</form>
 
 @code {
-	public int amount;
-	public DateOnly date;
-	public string source;
-	public string status;
-	public string usertags;
-	public string note;
-	private bool submitMessage = false;
-	protected override void OnInitialized()
-	{
-		List.ClearTags();
-		Controller controller = new Controller();
-		controller.selectTags();
-	}
+    // Variables to store user input for the form
+    public int amount;
+    public DateOnly date;
+    public string source;
+    public string status;
+    public string usertags;
+    public string note;
+    private bool submitMessage = false;
 
-	public void AddDebt()
-	{	
-		List.ClearDebt();
-		Controller controller = new Controller();
-		controller.SelectDebt();
-		InsertList insertList = new InsertList();
-		insertList.InsertDebtEntry(1, amount, source, date, status, usertags, note);
-		insertList.CloseDatabase();
-		submitMessage = true;
-	}
+    // On initialization, clears previous tags and loads new tags from the controller
+    protected override void OnInitialized()
+    {
+        List.ClearTags();
+        Controller controller = new Controller();
+        controller.selectTags();
+    }
 
-
+    // Method to add debt entry and update user balance
+    public void AddDebt()
+    {
+        List.ClearDebt();
+        Controller controller = new Controller();
+        controller.SelectDebt();
+        DatabaseInsert insertList = new DatabaseInsert();
+        insertList.InsertDebtEntry(1, amount, source, date, "Pending", usertags, note);
+        insertList.UpdateAmount(1, amount);
+        insertList.CloseDatabase();
+        controller.SelectAmount();
+        submitMessage = true;
+    }
 }

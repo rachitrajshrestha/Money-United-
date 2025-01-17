@@ -1,93 +1,105 @@
 ﻿@page "/Inflows"
 
-<h3>Inflows</h3>
+<form>
 
-<p><strong>Total Inflows: </strong>@inflowTotalAmount</p>
+	<h3>Inflows</h3>
 
-<label for="amount">Amount:</label>
-<input type="text" @bind=amount />
+	<p><strong>Total Inflows: </strong>@inflowTotalAmount</p>
 
-<label for="source">Source:</label>
-<input type="text" @bind=source />
+	<label for="amount">Amount:</label>
+	<input type="text" @bind=amount />
 
-<label for="tags">Tags:</label>
-<select @bind="usertags">
-    @foreach (var tag in List.Tags)
-    {
-        <option value="@tag.tags">@tag.tags</option>
-    }
-</select>
+	<label for="source">Source:</label>
+	<input type="text" @bind=source />
 
-<label for="type">Type:</label>
-<select @bind="type">
-    @foreach (var Inflows in Enum.GetNames(typeof(typeClass.Inflows)))
-    {
-        <option value="@Inflows">@Inflows</option>
-    }
-</select>
+	<label for="tags">Tags:</label>
+	<select @bind="usertags">
+		@foreach (var tag in List.Tags)
+		{
+			<option value="@tag.tags">@tag.tags</option>
+		}
+	</select>
 
-<label for="date">Date:</label>
-<input type="date" @bind=date />
+	<label for="type">Type:</label>
+	<select @bind="type">
+		@foreach (var Inflows in Enum.GetNames(typeof(typeClass.Inflows)))
+		{
+			<option value="@Inflows">@Inflows</option>
+		}
+	</select>
 
-<label for="note">Note:</label>
-<input type="text" @bind=note />
+	<label for="date">Date:</label>
+	<input type="date" @bind=date />
 
-@if (showThankYouMessage)
-{
-    <p>Your inflow has been recorded successfully.</p>
-}
+	<label for="note">Note:</label>
+	<input type="text" @bind=note />
 
-<input type="submit" @onclick=AddBalance value="Submit" />
+	@if (showThankYouMessage)
+	{
+		<p>Your inflow has been recorded successfully.</p>
+	}
+
+	<input type="submit" @onclick=AddBalance value="Submit" />
+
+</form>
 
 
 
 @code {
-    public int amount;
-    public string source;
-    public string type;
-    public DateOnly date;
-    public string usertags;
-    public string note;
-    private double inflowTotalAmount = 0;
-    private bool showThankYouMessage = false;
+	// Variables to store form data and total inflows
+	public int amount;
+	public string source;
+	public string type;
+	public DateOnly date;
+	public string usertags;
+	public string note;
+	private double inflowTotalAmount = 0;
+	private bool showThankYouMessage = false;
 
-    List<InflowTrans> income = new List<InflowTrans>();
+	List<InflowTrans> income = new List<InflowTrans>();
 
-
-    protected override void OnInitialized()
-    {
-        List.ClearTags();
-        Controller controller = new Controller();
-        controller.selectTags();
-        CalculateTotalInflows();
-    }
-
-    private void CalculateTotalInflows()
-    {
-
-        inflowTotalAmount = 0; 
-        foreach (var inflow in List.Inflows)
-        {
-            inflowTotalAmount += inflow.amount;
-        }
-    }
+	
+	protected override void OnInitialized()
+	{
+		List.ClearTags();
+		Controller controller = new Controller();
+		controller.selectTags();
+		CalculateTotalInflows();
+	}
 
 
+	// Method to calculate total inflows
+	private void CalculateTotalInflows()
+	{
 
-    public async Task AddBalance()
-    {
-        List.ClearInflow();
-        Controller controller = new Controller();
-        controller.SelectInflow();
+		inflowTotalAmount = 0;
+		foreach (var inflow in List.Inflows)
+		{
+			inflowTotalAmount += inflow.amount;
+		}
+	}
 
-        InsertList insertList = new InsertList();
-        insertList.LogInflow(1, amount, source, date, type, usertags, note);
-        insertList.CloseDatabase();
 
-        List.ClearInflow();
-        controller.SelectInflow();
-        CalculateTotalInflows();
+	// Method to add a new inflow record
+	public async Task AddBalance()
+	{
+		
 
-        showThankYouMessage = true;
-    }
+		DatabaseInsert insertList = new DatabaseInsert();
+		insertList.LogInflow(1, amount, source, date, type, usertags, note);
+		DebtManager debtManager = new DebtManager();
+		debtManager.Debt_Collector(amount, 1);
+		insertList.CloseDatabase();
+
+		List.ClearInflow();
+		Controller controller = new Controller();
+		controller.SelectAmount();
+		showThankYouMessage = true;
+
+		List.ClearInflow();
+		controller.SelectInflow();
+		CalculateTotalInflows();
+
+
+	}
 }

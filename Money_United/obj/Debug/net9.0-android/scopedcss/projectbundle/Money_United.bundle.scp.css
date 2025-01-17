@@ -179,18 +179,71 @@ main[b-d8asdtyrni] {
     }
 }
 /* /Components/Pages/Debt.razor.rz.scp.css */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Money_United.Components.Pages[b-4wkcomaaue]
-{
-    class Debt
-    {
-    }
+body[b-4wkcomaaue] {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
 }
+form[b-4wkcomaaue] {
+    width: 600px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    border-style: solid;
+    padding: 2%;
+}
+
+
+h3[b-4wkcomaaue] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label[b-4wkcomaaue] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"][b-4wkcomaaue],
+input[type="dateOnly"][b-4wkcomaaue],
+select[b-4wkcomaaue] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"][b-4wkcomaaue] {
+    background-color: #666699;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+    input[type="submit"]:hover[b-4wkcomaaue] {
+        background-color: #0056b3;
+    }
+
+.container[b-4wkcomaaue] {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* /Components/Pages/Home.razor.rz.scp.css */
 .totals-container[b-669jz35v7y] {
     display: flex;
@@ -262,30 +315,133 @@ namespace Money_United.Components.Pages[b-4wkcomaaue]
 
 
 /* /Components/Pages/Inflows.razor.rz.scp.css */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+body[b-n257x7lruu] {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+form[b-n257x7lruu] {
+    width: 600px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    border-style: solid;
+    padding: 2%;
+}
 
-namespace Money_United.Components.Pages[b-n257x7lruu]
-{
-    class Inflow
-    {
+
+h3[b-n257x7lruu] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label[b-n257x7lruu] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"][b-n257x7lruu],
+input[type="dateOnly"][b-n257x7lruu],
+select[b-n257x7lruu] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"][b-n257x7lruu] {
+    background-color: #666699;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+    input[type="submit"]:hover[b-n257x7lruu] {
+        background-color: #0056b3;
     }
+
+.container[b-n257x7lruu] {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* /Components/Pages/Outflows.razor.rz.scp.css */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+body[b-te42hp1f97] {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+form[b-te42hp1f97] {
+    width: 600px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    border-style: solid;
+    padding: 2%;
+}
 
-namespace Money_United.Components.Pages[b-te42hp1f97]
-{
-    class Outflows
-    {
+h3[b-te42hp1f97] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label[b-te42hp1f97] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"][b-te42hp1f97],
+input[type="dateOnly"][b-te42hp1f97],
+select[b-te42hp1f97] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"][b-te42hp1f97] {
+    background-color: #666699;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+    input[type="submit"]:hover[b-te42hp1f97] {
+        background-color: #0056b3;
     }
+
+.container[b-te42hp1f97] {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* /Components/Pages/Signup.razor.rz.scp.css */
 *[b-79wy7s4mr6] {
@@ -378,10 +534,13 @@ input[class="form-input"][b-79wy7s4mr6] {
     border: none;
     border-radius: 0px 5px 5px 0px;
     transition: 0.2s linear;
+
 }
 
 input[id="txt-input"][b-79wy7s4mr6] {
     width: 250px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 input:focus[b-79wy7s4mr6] {
@@ -392,10 +551,10 @@ input:focus[b-79wy7s4mr6] {
 button[b-79wy7s4mr6] {
     display: inline-block;
     color: #000;
-    width: 280px;
+    width: 380px;
     height: 50px;
     padding: 0 20px;
-    background: green;
+    background: #666699;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -441,15 +600,57 @@ button:hover[b-79wy7s4mr6] {
 }
 
 /* /Components/Pages/Tags.razor.rz.scp.css */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+body[b-mvn4rgo1ro] {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
 
-namespace Money_United.Components.Pages[b-mvn4rgo1ro]
-{
-    class Tags
-    {
+h3[b-mvn4rgo1ro] {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label[b-mvn4rgo1ro] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"][b-mvn4rgo1ro],
+input[type="dateOnly"][b-mvn4rgo1ro],
+select[b-mvn4rgo1ro] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"][b-mvn4rgo1ro] {
+    background-color: #666699;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+    input[type="submit"]:hover[b-mvn4rgo1ro] {
+        background-color: #0056b3;
     }
+
+.container[b-mvn4rgo1ro] {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

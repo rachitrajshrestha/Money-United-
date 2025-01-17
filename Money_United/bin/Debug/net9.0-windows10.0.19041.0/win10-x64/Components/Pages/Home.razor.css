@@ -67,3 +67,10 @@
         }
 
 
+
+
+.highlight-pending {
+    background-color: #ffcccc; /* Light red background */
+    color: #800000; /* Dark red text */
+    font-weight: bold; /* Bold text for emphasis */
+}

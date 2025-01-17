@@ -3,174 +3,13 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "Money_United.7kxbdfwafj.styles.css",
-      "AssetFile": "Money_United.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000318369946"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7kxbdfwafj"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
-        },
-        {
-          "Name": "label",
-          "Value": "Money_United.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "Money_United.7kxbdfwafj.styles.css",
-      "AssetFile": "Money_United.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14812"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7kxbdfwafj"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
-        },
-        {
-          "Name": "label",
-          "Value": "Money_United.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "Money_United.7kxbdfwafj.styles.css.gz",
-      "AssetFile": "Money_United.styles.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7kxbdfwafj"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
-        },
-        {
-          "Name": "label",
-          "Value": "Money_United.styles.css.gz"
-        }
-      ]
-    },
-    {
       "Route": "Money_United.styles.css",
       "AssetFile": "Money_United.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000318369946"
+          "Quality": "0.000309501702"
         }
       ],
       "ResponseHeaders": [
@@ -188,7 +27,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3140"
+          "Value": "3230"
         },
         {
           "Name": "Content-Type",
@@ -196,15 +35,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
+          "Value": "\"5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
+          "Value": "W/\"yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
         },
         {
           "Name": "Vary",
@@ -214,7 +53,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
+          "Value": "sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="
         }
       ]
     },
@@ -233,7 +72,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14812"
+          "Value": "15543"
         },
         {
           "Name": "Content-Type",
@@ -241,17 +80,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\""
+          "Value": "\"yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="
+          "Value": "sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="
         }
       ]
     },
@@ -274,7 +113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3140"
+          "Value": "3230"
         },
         {
           "Name": "Content-Type",
@@ -282,11 +121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4=\""
+          "Value": "\"5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 08:59:20 GMT"
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
         },
         {
           "Name": "Vary",
@@ -296,7 +135,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CM7cz2EStIVC4MYlpK2KVxPE+ylGBFqgoEeS5eZP1l4="
+          "Value": "sha256-5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac="
+        }
+      ]
+    },
+    {
+      "Route": "Money_United.wiycavewte.styles.css",
+      "AssetFile": "Money_United.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000309501702"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wiycavewte"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="
+        },
+        {
+          "Name": "label",
+          "Value": "Money_United.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Money_United.wiycavewte.styles.css",
+      "AssetFile": "Money_United.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wiycavewte"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="
+        },
+        {
+          "Name": "label",
+          "Value": "Money_United.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "Money_United.wiycavewte.styles.css.gz",
+      "AssetFile": "Money_United.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 05:31:57 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wiycavewte"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5cn2v/y5x9gAuZ8P/O8IrMgCKrb7NL6DExb1Roz8bac="
+        },
+        {
+          "Name": "label",
+          "Value": "Money_United.styles.css.gz"
         }
       ]
     },

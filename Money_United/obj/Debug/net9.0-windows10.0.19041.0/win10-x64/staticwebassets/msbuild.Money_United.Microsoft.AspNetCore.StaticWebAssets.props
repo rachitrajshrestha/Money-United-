@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>7kxbdfwafj</Fingerprint>
-      <Integrity>WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=</Integrity>
+      <Fingerprint>wiycavewte</Fingerprint>
+      <Integrity>yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Money_United.styles.css'))</OriginalItemSpec>

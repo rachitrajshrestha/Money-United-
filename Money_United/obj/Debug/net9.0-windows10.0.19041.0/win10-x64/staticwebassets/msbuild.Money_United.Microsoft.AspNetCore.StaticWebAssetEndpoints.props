@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kcq0whr4bu"},{"Name":"integrity","Value":"sha256-ZDlsYhOVLkcF1BqJil7nN3XMy65a7tbALh393fWX8Zk="},{"Name":"label","Value":"index.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"857"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZDlsYhOVLkcF1BqJil7nN3XMy65a7tbALh393fWX8Zk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 07:58:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="Money_United.7kxbdfwafj.styles.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Money_United.styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7kxbdfwafj"},{"Name":"integrity","Value":"sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="},{"Name":"label","Value":"Money_United.styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 08:59:20 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="Money_United.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Money_United.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WTjPAjYC0Bj8kNr1fJDCfWQY33WoXCQ5FFk5kIBQSZ0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 08:59:20 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15543"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 05:31:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="Money_United.wiycavewte.styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Money_United.styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wiycavewte"},{"Name":"integrity","Value":"sha256-yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg="},{"Name":"label","Value":"Money_United.styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15543"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yD9TtsDnUzYe8xlnRlQKAgMSj1Hg2YxcFI/Ltok1Ykg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 05:31:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

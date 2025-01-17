@@ -3,6 +3,16 @@ body[b-n257x7lruu] {
     margin: 0;
     background-color: #f9f9f9;
 }
+form[b-n257x7lruu] {
+    width: 600px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin: 2% auto;
+    border-style: solid;
+    padding: 2%;
+}
+
 
 h3[b-n257x7lruu] {
     font-size: 24px;
@@ -29,7 +39,7 @@ select[b-n257x7lruu] {
 }
 
 input[type="submit"][b-n257x7lruu] {
-    background-color: #666699;
+    background-color: #7A967D;
     color: #fff;
     padding: 10px 15px;
     margin: 20px;
@@ -45,7 +55,7 @@ input[type="submit"][b-n257x7lruu] {
     }
 
 .container[b-n257x7lruu] {
-    max-width: 600px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
