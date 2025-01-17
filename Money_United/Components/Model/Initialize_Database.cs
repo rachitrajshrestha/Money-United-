@@ -1,11 +1,10 @@
-﻿using System;
-using System.Data.SQLite;
-using System.IO;
+﻿using System.Data.SQLite;
 
 public class Initialize_Database
 {
     string connection = @"Data Source=D:\Application development dev\Money_United\Money_United\Components\Model\money_united.db;Version=3;";
 
+    // Checks if the database file exists, if not, creates a new database and adds an admin user
     public void DatabaseChecker()
     {
         if (File.Exists("D:\\Application development dev\\Money_United\\Money_United\\Components\\Model\\money_united.db"))
@@ -15,18 +14,21 @@ public class Initialize_Database
         else
         {
             Console.WriteLine("Database file does not exist.");
-            CreateDatabase();
+            CreateDatabase(); // Calls method to create a new database
+            DatabaseInsert il = new DatabaseInsert();
+            il.AddUser("admin", "admin", 0); // Adds admin user to the new database
         }
     }
 
+    // Creates the SQLite database file if it does not exist
     private void CreateDatabase()
     {
-        // Create a new database if it doesn't exist.
         SQLiteConnection.CreateFile("money_united.db");
         Console.WriteLine("Database created successfully.");
-        CreateTables();
+        CreateTables(); // Calls method to create the required tables in the database
     }
 
+    // Creates tables: users, inflows, outflows, debt, and tags in the database
     public void CreateTables()
     {
         string createUserQuery = @"
@@ -111,4 +113,3 @@ public class Initialize_Database
         }
     }
 }
-

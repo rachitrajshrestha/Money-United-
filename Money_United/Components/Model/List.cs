@@ -11,6 +11,7 @@ public static class List
     public static List<OutflowTrans> Outflows { get; set; } = new List<OutflowTrans>();
     public static List<DebtTrans> Debt { get; set; } = new List<DebtTrans>();
     public static List<TagsTrans> Tags { get; set; } = new List<TagsTrans>();
+    public static user user { get; set; } = new user();
 
     public static void ClearInflow()
     {

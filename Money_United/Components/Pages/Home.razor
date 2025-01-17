@@ -1,8 +1,14 @@
-﻿@page "/Home"
+﻿@page "/home"
 
 <h3>Dashboard</h3>
 
+
+
 <div class="totals-container">
+	<div class="total-box">
+		<h3>Balance</h3>
+		<p>@List.user.amount</p>
+	</div>
 	<div class="total-box">
 		<h3>Total Inflow</h3>
 		<p>@inflowTotalAmount</p>
@@ -12,37 +18,33 @@
 		<p>@OutflowTotalAmount</p>
 	</div>
 	<div class="total-box">
-		<h3>Cleared Debt</h3>
-		<p>@DebtTotalAmount</p>
-	</div>
-	<div class="total-box">
-		<h3>Pending Debt</h3>
+		<h3>Total Debt</h3>
 		<p>@DebtTotalAmount</p>
 	</div>
 </div>
 
 <div>
-	<input type="text" @bind=type placeholder="type"/>
-	<input type="text" @bind=source placeholder="source"/>
-	<input type="date" @bind=date />
-	<input type="date" @bind=lastDate />
-	<select @bind="tags">
-		@foreach(var tag in List.Tags)
-		{
-			<option value=@tag.tags>@tag.tags</option>
-		}
-	</select>
-	@tags
-
-	<button class="submit-btn" @onclick="filterInflow" type="submit">Search</button>
-
-</div>
-
-<div>
-	<button class="submit-btn" @onclick="sortDateInflow" type="submit">Sort Date</button>
-	<button class="submit-btn" @onclick="filterInflow" type="submit">Filter</button>
+	
+	
 	<div>
 		<h3>Inflow</h3>
+		<div>
+			<h6>Advance Search</h6>
+			<input type="text" @bind=type placeholder="type" />
+			<input type="text" @bind=source placeholder="source" />
+			<input type="date" @bind=date />
+			<input type="date" @bind=lastDate />
+			<select @bind="tags">
+				@foreach (var tag in List.Tags)
+				{
+					<option value=@tag.tags>@tag.tags</option>
+				}
+			</select>
+			@tags
+
+			<button class="submit-btn" @onclick="filterInflow" type="submit">Search</button>
+			<button class="submit-btn" @onclick="sortDateInflow" type="submit">Sort Date</button>
+		</div>
 		<table class="table">
 			<thead>
 				<tr>
@@ -73,9 +75,26 @@
 		</div>
 	</div>
 
-	<button class="submit-btn" @onclick="sortDateOutflow" type="submit">Sort Date</button>
+	
 	<div>
 		<h3>Outflow</h3>
+		<div>
+			<h6>Advance Search</h6>
+			<input type="text" @bind=type placeholder="type" />
+			<input type="text" @bind=source placeholder="source" />
+			<input type="date" @bind=date />
+			<input type="date" @bind=lastDate />
+			<select @bind="tags">
+				@foreach (var tag in List.Tags)
+				{
+					<option value=@tag.tags>@tag.tags</option>
+				}
+			</select>
+			@tags
+
+			<button class="submit-btn" @onclick="filterOutflow" type="submit">Search</button>
+			<button class="submit-btn" @onclick="sortDateOutflow" type="submit">Sort Date</button>
+		</div>
 		<table class="table">
 			<thead>
 				<tr>
@@ -106,9 +125,26 @@
 		</div>
 	</div>
 
-	<button class="submit-btn" @onclick="sortDateDebt" type="submit">Sort Date</button>
+	
 	<div>
 		<h3>Debt</h3>
+		<div>
+			<h6>Advance Search</h6>
+			<input type="text" @bind=type placeholder="type" />
+			<input type="text" @bind=source placeholder="source" />
+			<input type="date" @bind=date />
+			<input type="date" @bind=lastDate />
+			<select @bind="tags">
+				@foreach (var tag in List.Tags)
+				{
+					<option value=@tag.tags>@tag.tags</option>
+				}
+			</select>
+			@tags
+
+			<button class="submit-btn" @onclick="filterDebt" type="submit">Search</button>
+			<button class="submit-btn" @onclick="sortDateDebt" type="submit">Sort Date</button>
+		</div>
 		<table class="table">
 			<thead>
 				<tr>
@@ -123,7 +159,7 @@
 			<tbody>
 				@foreach (var debt in List.Debt)
 				{
-					<tr>
+					<tr class="@GetRowClass(debt.status)">
 						<td>@debt.date</td>
 						<td>@debt.status</td>
 						<td>@debt.source</td>
@@ -138,9 +174,11 @@
 			<p><strong>Highest Debt Amount:</strong> @highestDebtAmount</p>
 		</div>
 	</div>
+
 </div>
 
 @code {
+	// Variables to hold amounts and selected filter criteria
 	private double inflowTotalAmount = 0;
 	private double highestInflowAmount = 0;
 
@@ -149,6 +187,7 @@
 
 	private double DebtTotalAmount = 0;
 	private double highestDebtAmount = 0;
+	
 
 	public int amount;
 	public string type;
@@ -159,6 +198,7 @@
 	public DateOnly lastDate;
 	public string order;
 
+	// Initialize data on component load
 	protected override void OnInitialized()
 	{
 		List.ClearInflow();
@@ -199,6 +239,12 @@
 		}
 	}
 
+	private string GetRowClass(string status)
+	{
+		return status.ToLower() == "pending" ? "highlight-pending" : "";
+	}
+
+	// Methods to handle sorting and filtering for Inflow, Outflow, and Debt
 	public void sortDateInflow()
 	{
 		List.ClearInflow();
@@ -224,6 +270,20 @@
 	{
 		List.ClearInflow();
 		Controller controller = new Controller();
-		controller.selectfilter(1, type, source, date, lastDate, tags, note, order);
+		controller.searchFilterInflow(1, type, source, date, lastDate, tags, note, order);
+	}
+
+	public void filterOutflow()
+	{
+		List.ClearOutflow();
+		Controller controller = new Controller();
+		controller.searchFilterOutflow(1, type, source, date, lastDate, tags, note, order);
+	}
+
+	public void filterDebt()
+	{
+		List.ClearDebt();
+		Controller controller = new Controller();
+		controller.searchFilterInflow(1, type, source, date, lastDate, tags, note, order);
 	}
 }

@@ -10,13 +10,14 @@
     public string tags { get; set; }
     public string note { get; set; }
 
-    public DebtTrans(int debt_amount, string status, string debt_source, string date,  string tags, string note)
+    public DebtTrans() { }
+    public DebtTrans(int debt_amount, string status, string debt_source, string date, string tags, string note)
     {
         amount = debt_amount;
         this.status = status;
         source = debt_source;
         this.date = date;
-        this.tags = tags;   
+        this.tags = tags;
         this.note = note;
     }
 }

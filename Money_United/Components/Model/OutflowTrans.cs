@@ -7,6 +7,8 @@
     public string tags { get; set; }
     public string note { get; set; }
 
+    public OutflowTrans() { }
+
     public OutflowTrans(int outflow_amount, string type, string outflow_source, string date, string tags, string note)
     {
         amount = outflow_amount;

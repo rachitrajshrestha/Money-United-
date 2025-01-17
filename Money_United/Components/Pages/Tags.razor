@@ -6,7 +6,7 @@
 
 @if (submitMessage)
 {
-	<p>Your Debt has been recorded successfully.</p>
+	<p>Your Tags has been recorded successfully.</p>
 }
 
 <label>&nbsp;</label>
@@ -17,7 +17,7 @@
 	private bool submitMessage = false;
 	public void addTags()
 	{
-		InsertList insertList = new InsertList();
+		DatabaseInsert insertList = new DatabaseInsert();
 		insertList.InsertTagsEntry(1, tags);
 		insertList.CloseDatabase();
 		submitMessage = true;

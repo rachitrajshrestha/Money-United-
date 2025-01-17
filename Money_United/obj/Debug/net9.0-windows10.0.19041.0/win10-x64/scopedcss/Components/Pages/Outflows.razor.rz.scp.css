@@ -3,6 +3,15 @@ body[b-te42hp1f97] {
     margin: 0;
     background-color: #f9f9f9;
 }
+form[b-te42hp1f97] {
+    width: 600px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin: 2% auto;
+    border-style: solid;
+    padding: 2%;
+}
 
 h3[b-te42hp1f97] {
     font-size: 24px;
@@ -29,7 +38,7 @@ select[b-te42hp1f97] {
 }
 
 input[type="submit"][b-te42hp1f97] {
-    background-color: #666699;
+    background-color: #7A967D;
     color: #fff;
     padding: 10px 15px;
     margin: 20px;

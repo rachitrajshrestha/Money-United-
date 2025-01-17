@@ -3,17 +3,19 @@ using System.Data.SQLite;
 using System.IO;
 using Money_United.Components.Pages;
 
-public class InsertList
+public class DatabaseInsert
 {
     string connection = "Data Source=D:\\Application development dev\\Money_United\\Money_United\\Components\\Model\\money_united.db; Version=3;";
     SQLiteConnection conn;
 
-    public InsertList()
+    // Constructor that initializes the SQLite connection and opens it
+    public DatabaseInsert()
     {
         conn = new SQLiteConnection(connection);
         conn.Open();
     }
 
+    // Adds a new user to the 'users' table
     public void AddUser(string userName, string password, int amount)
     {
         string sqlQuery = "INSERT INTO users (userName, password, amount) VALUES (@userName, @password, @amount)";
@@ -26,6 +28,7 @@ public class InsertList
         }
     }
 
+    // Updates the amount for a specific user
     public void UpdateAmount(int userId, int updatedAmount)
     {
         string sqlQuery = "UPDATE users SET amount = @updatedAmount WHERE user_id = @userId";
@@ -37,6 +40,7 @@ public class InsertList
         }
     }
 
+    // Increases the user's amount by a specified value
     public void IncrementAmount(int userId, int amount)
     {
         string sqlQuery = "UPDATE users SET amount = amount + @amount WHERE user_id = @userId";
@@ -48,6 +52,7 @@ public class InsertList
         }
     }
 
+    // Decreases the user's amount by a specified value
     public void DecrementAmount(int userId, int amount)
     {
         string sqlQuery = "UPDATE users SET amount = amount - @amount WHERE user_id = @userId";
@@ -59,6 +64,7 @@ public class InsertList
         }
     }
 
+    // Logs an inflow (income) transaction for a user
     public int LogInflow(int userId, int incomeAmount, string incomeSource, DateOnly transactionDate, string type, string usertags, string note)
     {
         string sqlQuery = "INSERT INTO inflows (user_id, inflow_amount, inflow_source, date, type, tags, note) VALUES (@userId, @incomeAmount, @incomeSource, @transactionDate, @inflowtype, @inflowtags, @inflowNote)";
@@ -76,9 +82,10 @@ public class InsertList
         return (int)conn.LastInsertRowId;
     }
 
+    // Logs an outflow (expense) transaction for a user
     public void LogOutflow(int userId, int expenseAmount, string expenseSource, DateOnly transactionDate, string type, string usertags, string note)
     {
-        string sqlQuery = "INSERT INTO outflows (user_id, outflow_amount, outflow_source, date, type, tags, note) VALUES (@userId, @expenseAmount, @expenseSource, @transactionDate, @outflowtype, @outflowtags, @outflowNote )";
+        string sqlQuery = "INSERT INTO outflows (user_id, outflow_amount, outflow_source, date, type, tags, note) VALUES (@userId, @expenseAmount, @expenseSource, @transactionDate, @outflowtype, @outflowtags, @outflowNote)";
         using (var command = new SQLiteCommand(sqlQuery, conn))
         {
             command.Parameters.AddWithValue("@userId", userId);
@@ -92,9 +99,10 @@ public class InsertList
         }
     }
 
+    // Logs a debt entry for a user
     public void InsertDebtEntry(int userId, int amount, string source, DateOnly date, string status, string usertags, string note)
     {
-        string sqlQuery = "INSERT INTO debt (user_id,  debt_amount, debt_source, date, status, tags, note) VALUES (@userId, @amount, @source, @date, @status, @debttags, @note)";
+        string sqlQuery = "INSERT INTO debt (user_id, debt_amount, debt_source, date, status, tags, note) VALUES (@userId, @amount, @source, @date, @status, @debttags, @note)";
         using (var command = new SQLiteCommand(sqlQuery, conn))
         {
             command.Parameters.AddWithValue("@userId", userId);
@@ -108,6 +116,7 @@ public class InsertList
         }
     }
 
+    // Inserts a tag entry for a user
     public void InsertTagsEntry(int userId, string tags)
     {
         string sqlQuery = "INSERT INTO tags (user_id, tags_content) VALUES (@userId, @tags_content)";
@@ -119,22 +128,7 @@ public class InsertList
         }
     }
 
-
-    //public void UpdateDebtEntry(int debtId, int incomeId, int paidAmount, string updatedCategory)
-    //{
-    //    string sqlQuery = "UPDATE debt SET income_id = @incomeId, type = @updatedCategory, debt_amount = @paidAmount WHERE debt_id = @debtId";
-    //    using (var command = new SQLiteCommand(sqlQuery, conn))
-    //    {
-    //        command.Parameters.AddWithValue("@incomeId", incomeId);
-    //        command.Parameters.AddWithValue("@paidAmount", paidAmount);
-    //        command.Parameters.AddWithValue("@updatedCategory", updatedCategory);
-    //        command.Parameters.AddWithValue("@debtId", debtId);
-    //        command.ExecuteNonQuery();
-    //    }
-    //}
-
-
-
+    // Closes the database connection
     public void CloseDatabase()
     {
         conn.Close();

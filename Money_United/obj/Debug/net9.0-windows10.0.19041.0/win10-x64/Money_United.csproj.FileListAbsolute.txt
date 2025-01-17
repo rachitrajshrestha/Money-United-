@@ -550,10 +550,10 @@ D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-window
 D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\Tags.razor.rz.scp.css
 D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\1mm0kb4s7b-5djdrf6zrc.gz
 D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\1mm0kb4s7b-5djdrf6zrc.br
-D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.7kxbdfwafj.bundle.scp.css.gz
-D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.7kxbdfwafj.bundle.scp.css.br
-D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.7kxbdfwafj.bundle.scp.css
-D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\9legoma4qr-7kxbdfwafj.gz
-D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\b0zqz3a2q5-7kxbdfwafj.gz
-D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\9legoma4qr-7kxbdfwafj.br
-D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\b0zqz3a2q5-7kxbdfwafj.br
+D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.wiycavewte.bundle.scp.css.gz
+D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.wiycavewte.bundle.scp.css.br
+D:\Application development dev\Money_United\Money_United\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Money_United.wiycavewte.bundle.scp.css
+D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\9legoma4qr-wiycavewte.gz
+D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\b0zqz3a2q5-wiycavewte.gz
+D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\9legoma4qr-wiycavewte.br
+D:\Application development dev\Money_United\Money_United\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\b0zqz3a2q5-wiycavewte.br
